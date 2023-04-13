@@ -374,9 +374,11 @@ ul.row {
 .col-1-3 {
     width: calc((100% / 3) - 2rem);
 }
+
 .col-1-2 {
     width: calc((100% / 2) - 2rem);
 }
+
 .row {
     display: flex;
 }
@@ -399,7 +401,7 @@ ul.row {
     letter-spacing: var(--nav-item-letter-spacing);
 }
 
-.nav .nav-item+.nav-item {
+.nav .nav-item + .nav-item {
     margin: var(--nav-item-margin);
 }
 
@@ -444,6 +446,7 @@ ul.row {
     display: flex;
     justify-content: space-between;
 }
+
 /* Footer
       ============================= */
 
@@ -546,6 +549,7 @@ ul.row {
 .section-latest-news .row {
     flex-direction: row-reverse;
 }
+
 /* Section SERVICES ============================= */
 .section-services .row {
     flex-wrap: wrap;
